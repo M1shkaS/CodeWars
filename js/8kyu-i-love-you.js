@@ -14,9 +14,9 @@ function howMuchILoveYou(nbPetals) {
    let arr = ['I love you', 'a little', 'a lot', 'passionately', 'madly', 'not at all'];
 
    if (nbPetals % 6 === 0) {
-      return arr[5]
+      return arr[5];
    }
    else {
-      return arr[nbPetals % 6 - 1]
+      return arr[nbPetals % 6 - 1];
    }
 }
